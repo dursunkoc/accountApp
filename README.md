@@ -5,7 +5,7 @@ Uygulamanin hicbir unit testi olmayip, %100 unit test coverage'a ihtiyac vardir.
 ##Uygulamayi baslatmak ve manual testler
 Uygulamayi baslatmak icin `com.aric.samples.account.Application` class'indaki main methodunu calistirmaniz gerekiyor.
     
-##Uygulamayi baslattiktan sonra asagidaki httpie komutu ile ornek bir kayit olusturulabilir.
+##Uygulamayi baslattiktan sonra asagidaki httpie(https://httpie.org/docs) komutu ile ornek bir kayit olusturulabilir.
 
     http POST :8080/account < ./src/main/resources/accounts.json
 
